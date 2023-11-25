@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+  .item {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 75%;
+  }
+  .item {
+    flex-basis: 50%;
+  }
+}
