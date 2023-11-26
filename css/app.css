@@ -395,8 +395,8 @@ body::-webkit-scrollbar {
   display: inline-block;
   position: relative;
   cursor: pointer;
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 2.65rem;
+  height: 2.65rem;
   border: 0.125rem solid transparent;
   padding: 0;
   text-decoration: none;
