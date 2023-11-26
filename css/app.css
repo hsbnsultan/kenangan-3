@@ -186,6 +186,21 @@ body::-webkit-scrollbar {
   width: 100%;
 }
 
+.img-home {
+  width: 16rem;
+  height: 16rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.img-home > img {
+  display: inline;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+}
+
 .img-custom {
   width: 14rem;
   height: 14rem;
