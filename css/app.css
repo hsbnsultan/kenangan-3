@@ -7,8 +7,9 @@ html {
 }
 
 body {
-  font-family: "Overpass", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-weight: 400;
+  font-size: 1.15rem;
   padding: 0 !important;
   overflow-y: scroll;
   -ms-overflow-style: none;
@@ -259,6 +260,9 @@ body::-webkit-scrollbar {
   border-radius: 4px;
   text-decoration: none;
   display: inline-block;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
 }
 
 .btn-custom:hover {
@@ -329,14 +333,14 @@ body::-webkit-scrollbar {
 .info .card-body h5 {
   font-family: "Cinzel", serif;
   font-weight: 500;
-  font-size: 2.8rem;
+  font-size: 2.25rem;
   color: #cc3399;
 }
 
 .info .card-body p {
-  font-family: "Overpass", sans-serif;
-  font-weight: 500;
-  font-size: 1.2rem;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
   color: #cc3399;
 }
 
