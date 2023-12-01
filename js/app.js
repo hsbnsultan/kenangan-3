@@ -834,9 +834,9 @@ window.addEventListener(
       let div = document.createElement("div");
       div.classList.add("m-2");
       div.innerHTML = `
-      <p class="mt-2 mb-2 mx-0 p-0 text-white">Kepada Yth Bapak/Ibu/Saudara/i</p>
-      <p class="mt-2 mb-2 mx-0 p-0 text-white"><i>Mohon Maaf Apabila Ada Kesalahan Dalam Penulisan Nama Atau Gelar</i></p>
-      <h2 class="text-white">${escapeHtml(name)}</h2>
+      <p class="font-tamu mt-2 mb-2 mx-0 p-0 text-white">Kepada Yth Bapak/Ibu/Saudara/i</p>
+      <p class="font-tamu mt-2 mb-2 mx-0 p-0 text-white"><i>Mohon Maaf Apabila Ada Kesalahan Dalam Penulisan Nama Atau Gelar</i></p>
+      <h2 class="font-nama text-white">${escapeHtml(name)}</h2>
       `;
 
       document.getElementById("formnama").value = name;

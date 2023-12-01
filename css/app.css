@@ -7,9 +7,9 @@ html {
 }
 
 body {
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1.15rem;
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-size: 1.2rem;
   padding: 0 !important;
   overflow-y: scroll;
   -ms-overflow-style: none;
@@ -38,7 +38,6 @@ body::-webkit-scrollbar {
   background-position: center;
   padding-top: 10rem;
   padding-bottom: 8rem;
-  color: #797a7a;
 }
 
 .couple {
@@ -111,7 +110,7 @@ body::-webkit-scrollbar {
   background-image: url(../images/background.jpg);
   background-size: cover;
   background-position: center;
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 .font-estetik {
@@ -156,12 +155,26 @@ body::-webkit-scrollbar {
   font-size: 1.2rem;
 }
 
+.font-tamu {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
 .font-asyik {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
   font-size: 2.2rem;
   text-transform: uppercase;
   letter-spacing: 1.2px;
+}
+
+.font-nama {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.35rem;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
 }
 
 .font-tanggal {
@@ -196,6 +209,21 @@ body::-webkit-scrollbar {
 }
 
 .img-home > img {
+  display: inline;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+}
+
+.img-mempelai {
+  width: 16rem;
+  height: 16rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.img-mempelai > img {
   display: inline;
   margin: 0 auto;
   height: auto;
@@ -239,19 +267,15 @@ body::-webkit-scrollbar {
 }
 
 .card.bg-custom {
-  background: linear-gradient(
-    0deg,
-    rgba(174, 174, 212, 1) 35%,
-    rgba(185, 173, 213, 1) 100%
-  );
+  background: #db6498;
+  background: linear-gradient(135deg, #db6498, #f4aed6);
+  opacity: 0.9;
 }
 
 .card-body.bg-custom {
-  background: linear-gradient(
-    0deg,
-    rgba(174, 174, 212, 1) 35%,
-    rgba(185, 173, 213, 1) 100%
-  );
+  background: #db6498;
+  background: linear-gradient(135deg, #db6498, #f4aed6);
+  opacity: 0.9;
 }
 
 .btn-custom {
@@ -282,7 +306,9 @@ body::-webkit-scrollbar {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #cc3399;
+  color: #993366;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
 }
 
 .date::before {
@@ -310,14 +336,15 @@ body::-webkit-scrollbar {
 }
 
 .info {
-  background: linear-gradient(
-    0deg,
-    rgba(174, 174, 212, 1) 35%,
-    rgba(185, 173, 213, 1) 100%
-  );
-  color: #cc3399;
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../images/thema-5.png);
+  background-size: cover;
+  background-position: center;
   padding-top: 10rem;
   padding-bottom: 8rem;
+  color: #cc3399;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .info .description {
@@ -326,26 +353,28 @@ body::-webkit-scrollbar {
 
 .info .card {
   background-color: rgba(255, 255, 255, 0.2) !important;
-  color: #cc3399 !important;
-  border: 2.5px solid #cc3399;
+  color: #993366 !important;
+  border: 2.5px solid #993366;
 }
 
 .info .card-body h5 {
   font-family: "Cinzel", serif;
   font-weight: 500;
   font-size: 2.25rem;
-  color: #cc3399;
+  color: #993366;
 }
 
 .info .card-body p {
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 400;
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
   font-size: 1.15rem;
-  color: #cc3399;
+  color: #993366;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .section-title {
-  color: #cc3399;
+  color: #993366;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .rounded-social-buttons {
